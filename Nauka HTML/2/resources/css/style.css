@@ -106,6 +106,7 @@ h2:after{
 h3{
   font-size: 110%;
   margin-bottom: 15px;
+  text-align: center
 }
 .long_copy{
   line-height: 145%;
@@ -115,6 +116,7 @@ h3{
 .box p {
   font-size:90%;
   line-height: 145%;
+  text-align: center
 }
 .photo2{
   padding: 15px;
