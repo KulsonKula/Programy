@@ -12,6 +12,7 @@ html {
   font-weight: 300;
   font: size 20px;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
 
 /* header*/
@@ -209,8 +210,9 @@ cite img {
 /*stopa*/
 footer {
   background-color: #333;
-  padding: 20px;
+  padding: 10px;
   margin-top:0;
+  padding-top:0;
 }
 .footer_nav {
   list-style: none;
@@ -226,8 +228,8 @@ footer {
   float: right;
   width: 20px;
   height: 20px;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 6px;
+  margin-left: 6px;
 }
 
 .footer_nav li,
@@ -250,6 +252,7 @@ footer {
   color: #888;
   transition: color 0.2s;
 }
+
 .footer_nav li a:hover,
 .footer_nav li a:active {
   color: #ddd;
@@ -259,4 +262,7 @@ footer p {
   text-align: center;
   font-size: 90%;
   margin-top: 3px;
+}
+.footer_S{
+  padding:0;
 }
