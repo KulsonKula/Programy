@@ -184,7 +184,7 @@ blockquote {
   font-style: italic;
   line-height: 145%;
   position: relative;
-  maring-top: 40px;
+  margin-top: 40px;
 }
 blockquote:before {
   content: "\201C";
