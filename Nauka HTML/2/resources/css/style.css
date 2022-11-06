@@ -174,33 +174,33 @@ h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/testimony.jpg);
   background-size: cover;
-  color:#fff;
+  color: #fff;
   background-attachment: fixed;
 }
-blockquote{
+blockquote {
   padding: 2%;
   font-style: italic;
   line-height: 145%;
   position: relative;
-  maring-top:40px
+  maring-top: 40px;
 }
-blockquote:before{
-  content:"\201C";
-  font-size:500%;
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
   display: block;
   position: absolute;
   top: 0px;
   left: -5px;
 }
-cite{
+cite {
   font-size: 90%;
-  margin-top:25%;
+  margin-top: 25%;
   display: block;
 }
 
-cite img{
+cite img {
   height: 45px;
-  border-radius:50%;
+  border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
 }
