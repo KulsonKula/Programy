@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   background-color: #fff;
   color: #555;
@@ -53,6 +54,7 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
+
 .photo2 {
   size: 20%;
 }
@@ -73,6 +75,7 @@ section {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 h1,
 h2,
 h3 {
@@ -87,6 +90,7 @@ h1 {
   word-spacing: 4px;
   letter-spacing: 1px;
 }
+
 h2 {
   font-size: 180%;
   word-spacing: 2px;
@@ -94,6 +98,7 @@ h2 {
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
+
 h2:after {
   display: block;
   height: 2px;
@@ -103,21 +108,25 @@ h2:after {
   margin: 0 auto;
   margin-top: 10px;
 }
+
 h3 {
   font-size: 110%;
   margin-bottom: 15px;
   text-align: center;
 }
+
 .long_copy {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
 }
+
 .box p {
   font-size: 90%;
   line-height: 145%;
   text-align: center;
 }
+
 .photo2 {
   padding: 15px;
   width: 150px;
@@ -125,11 +134,13 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* reuse*/
 
 .box {
   padding: 1%;
 }
+
 .button_start:link,
 .button_start:visited {
   display: inline-block;
@@ -179,6 +190,7 @@ h3 {
   color: #fff;
   background-attachment: fixed;
 }
+
 blockquote {
   padding: 2%;
   font-style: italic;
@@ -186,6 +198,7 @@ blockquote {
   position: relative;
   margin-top: 40px;
 }
+
 blockquote:before {
   content: "\201C";
   font-size: 500%;
@@ -194,6 +207,7 @@ blockquote:before {
   top: 0px;
   left: -5px;
 }
+
 cite {
   font-size: 90%;
   margin-top: 25%;
@@ -214,10 +228,12 @@ footer {
   margin-top: 0;
   padding-top: 0;
 }
+
 .footer_nav {
   list-style: none;
   float: left;
 }
+
 .social_links {
   list-style: none;
   float: right;
@@ -257,12 +273,14 @@ footer {
 .footer_nav li a:active {
   color: #ddd;
 }
+
 footer p {
   color: #888;
   text-align: center;
   font-size: 90%;
   margin-top: 3px;
 }
+
 .footer_S {
   padding: 0;
 }
