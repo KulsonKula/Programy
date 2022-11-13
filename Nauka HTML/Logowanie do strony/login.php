@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 require_once "connect.php";
 
@@ -20,13 +21,14 @@ else{
         if($quantity>0)
         {
         $row=$result->fetch_assoc();
-        $user=$row['password'];
 
-
+        $_SESSION['login']=$row['login'];
+        //$_SESSION['user_id']=$row['user_id'];
+        
 
         $result->close();
 
-        //header('Location:');
+        header('Location:game.php');
         }
         else
         {
